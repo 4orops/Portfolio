@@ -20,7 +20,6 @@ function Home() {
                 I am 
                 <strong className="main-name"> OARABILE KGATLHANE</strong>
               </h1>
-
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
@@ -28,9 +27,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      
     </section>
   );
 }
-
 export default Home;

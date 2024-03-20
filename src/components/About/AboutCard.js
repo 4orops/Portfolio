@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 
+const RANDOM_QUOTE_URL = "https://inspo-quotes-api.herokuapp.com/quotes/random"
+
 function AboutCard() {
+  const [quote, setQuote] = useState({text: "", author: ""})
+
+  useEffect(() => {
+    async function getInitialQuote() {
+      const response = await fetch(RANDOM_QUOTE_URL);
+      const jsonResponse = await response.json();
+      const randomQuote = jsonResponse.quote;
+      setQuote(randomQuote);
+    }
+    getInitialQuote();
+  }, [])
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -13,9 +26,9 @@ function AboutCard() {
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          {quote.text}
           </p>
-          <footer className="blockquote-footer">Oarabile</footer>
+          <footer className="blockquote-footer">{quote.author}</footer>
         </blockquote>
       </Card.Body>
     </Card>
