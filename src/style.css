@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #30C48D;
+  --imp-text-color: #30c430;
 }
 
 .purple {
@@ -278,6 +278,7 @@ button:focus {
   }
 }
 
+
 .social-icons {
   display: inline-block !important;
   padding-right: 15px;
@@ -385,6 +386,9 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.react-activity-calendar{
+  color: azure;
+}
 /* --------- */
 /* About */
 /* --------- */

@@ -12,8 +12,8 @@ function Github() {
         username="4orops"
         blockSize={15}
         blockMargin={5}
-        color="#30C48D"
-        fontSize={16}
+        color="#30c430"
+        fontSize={32}
       />
     </Row>
   );

@@ -9,6 +9,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
+
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi!!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -22,8 +23,8 @@ function Home() {
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-              </div>
-            </Col>
+              </div>             
+            </Col>          
           </Row>
         </Container>
       </Container>
