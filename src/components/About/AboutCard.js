@@ -6,15 +6,21 @@ const RANDOM_QUOTE_URL = "https://inspo-quotes-api.herokuapp.com/quotes/random"
 function AboutCard() {
   const [quote, setQuote] = useState({text: "", author: ""})
 
-  useEffect(() => {
-    async function getInitialQuote() {
+  const fetchRandomQuote = async () => {
+    try {
       const response = await fetch(RANDOM_QUOTE_URL);
       const jsonResponse = await response.json();
       const randomQuote = jsonResponse.quote;
       setQuote(randomQuote);
+    } catch (error) {
+      console.error("Error fetching quote:", error);
     }
-    getInitialQuote();
-  }, [])
+  };
+  useEffect(() => {
+    fetchRandomQuote();
+    const timer = setInterval(fetchRandomQuote, 5000); 
+    return () => clearInterval(timer);
+  }, []);
   return (
     <Card className="quote-card-view">
       <Card.Body>
