@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Github from "./Github";
-import chatify from "../../Assets/Projects/chatify.png";
+import YelpCamp from "../../Assets/Projects/YelpCamp.png";
 
 function Projects() {
   return (
@@ -17,7 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={YelpCamp}
               isBlog={false}
               title="YelpCamp"
               description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
@@ -26,7 +26,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={YelpCamp}
               isBlog={false}
               title="YelpCamp"
               description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
@@ -35,7 +35,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={YelpCamp}
               isBlog={false}
               title="YelpCamp"
               description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
