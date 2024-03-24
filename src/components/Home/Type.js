@@ -9,8 +9,6 @@ function Type() {
           "Web Developer",
           "Freelancer",
           "MERN Stack Developer",
-          "AND",
-          "INQUISITIVE"
         ],
         autoStart: true,
         loop: true,
