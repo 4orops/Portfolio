@@ -19,9 +19,9 @@ function Projects() {
             <ProjectCard
               imgPath={YelpCamp}
               isBlog={false}
-              title="YelpCamp"
-              description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
-              ghLink="https://github.com/4orops/YelpCamp"
+              title="QASHA"
+              description="This is an ongoing project, its a frontend build using REACTJS for a room rental in South Africa."
+              ghLink="https://github.com/4orops/qasha"
             />
           </Col>
           <Col md={4} className="project-card">
