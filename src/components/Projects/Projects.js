@@ -31,6 +31,7 @@ function Projects() {
               title="YelpCamp"
               description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
               ghLink="https://github.com/4orops/YelpCamp"
+              demoLink="https://yelpcamp-h5tq.onrender.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -40,6 +41,7 @@ function Projects() {
               title="YelpCamp"
               description="This project was built during the web development bootcamp to delve deep into the fundamentals of creating CRUD projects using MongoDB, Express.js, Node.js, and other JavaScript libraries. It served as valuable practice for backend development."
               ghLink="https://github.com/4orops/YelpCamp"
+              demoLink="https://yelpcamp-h5tq.onrender.com/"
             />
           </Col>
         </Row>

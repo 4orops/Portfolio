@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
 import Profile from "../../Assets/profile.png"
 
+
 function Home() {
   return (
     <section>
@@ -10,7 +11,6 @@ function Home() {
         <Container  className="home-content">
           <Row>
             <Col md={8} className="home-header">
-
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi!!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
