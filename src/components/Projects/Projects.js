@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Github from "./Github";
 import YelpCamp from "../../Assets/Projects/YelpCamp.png";
+import Qasha from "../../Assets/Projects/Qasha.png";
 
 function Projects() {
   return (
@@ -17,7 +18,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={YelpCamp}
+              imgPath={Qasha}
               isBlog={false}
               title="QASHA"
               description="This is an ongoing project, its a frontend build using REACTJS for a room rental in South Africa."
