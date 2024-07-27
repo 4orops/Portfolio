@@ -26,11 +26,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Oarabile Kgatlhane </span>
-            from <span className="purple"> Molekos Farm, Kimberly, Nothern Cape.</span>
-            
+            Hi Everyone,I am <span className="purple">Oarabile Vincent Kgatlhane </span>  
+            I am very Enthusiastic and detail-oriented Junior Web Developer with a strong foundation in the MERN stack.
+            Eager to contribute to dynamic teams and help build scalable, user-friendly applications.
           </p>
-
           <p style={{ color: "rgb(155 126 172)" }}>
           {quote.text}
           </p>
